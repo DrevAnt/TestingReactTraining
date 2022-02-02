@@ -9,7 +9,7 @@ function Search() {
   };
   return (
     <>
-      <input type="text" onChange={handleChange}></input>
+      <input type="text" onChange={handleChange} title="inputTitle"></input>
       <p>{inputValue}</p>
     </>
   );
